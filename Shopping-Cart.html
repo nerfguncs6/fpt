@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="containermenu">
+            <div class="imgmenu">
+                <img src="https://www.simplyorganic.com/sites/default/files/simply-organic-logo-green.jpg" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">Products</a>
+                        <ul class="dropmenu">
+                            <li><a href="Organic.html">Organic</a></li>
+                            <li><a href="">Vanilla</a></li>
+                            <li><a href="">Spicy</a></li>
+                            <li><a href="">Water</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="">Learn</a></li>
+                    <li><a href="">Recipes</a></li>
+                    <li><a href=""> AboutUs</a></li>
+                </ul>
+            </div>
+            <br>
+            <div class="iconheader">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                <span> <i class="fa-solid fa-bag-shopping"></i></span>
+                <span><i class="fa-regular fa-user" class="userclick" data-toggle="modal" data-target="#myModal"
+                        onclick="user()"></i></span>
+            </div>
+
+        </div>
+        <div class="window_user">
+            <div class="container-user">
+                <div>
+                    <img src="https://www.simplyorganic.com/sites/default/files/simply-organic-logo-green.jpg" alt=""
+                        class="modal-user">
+                    <h3>LOGIN</h3>
+                    <hr>
+                    <div class="closeuser" onclick="userclose()">X</div>
+                    <div class="login-user">
+                        <label for="">Đăng nhập: </label> <br>
+                        <input type="gmail" placeholder="html@gmail.com">
+                    </div>
+                    <div class="login-pass">
+                        <label for="">Mật Khẩu: </label> <br>
+                        <input type="password">
+                    </div>
+                    <div>
+                        <div><Button class="login_button">Đăng Nhập</Button></div>
+                    </div>
+                    <a href="">Quên Mật Khẩu ?</a>
+                </div>
+            </div>
+        </div>
+        <div class="template">
+            <img src="https://www.simplyorganic.com/sites/default/files/acquiadam/2023-05/SO_family-shot-seasoning-mixes-bottled-spices-1440x660.jpg"
+                alt="">
+        </div>
+        <div class="fontimage">
+            <h1>Taste the Joys of Summer</h1>
+        </div>
+    </header>
+    <!-- Catagories -->
+
+    <div class="container-shop">
+        <h1 class="cart-name" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Shopping Cart</h1> <br>
+        <hr>
+        <table style="width: 60%;">
+            <tr>
+                <td style="width: 70%;">Items</td>
+                <td style="width:10%;" style="color:red">Price</td>
+
+                <td style="width:10%;">Qty</td>
+                <td>Subtotal</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table style="width: 60%;">
+            <tr>
+                <td style="width: 70%;"><img
+                        src="https://www.coopmarket.com/sites/default/files/acquiadam/2022-07/1_089836198549-Simply-Organic-Vanilla-Bean-Paste-4oz-M308905A-front-900x900.jpg"
+                        alt="" style="width:110px; height: 160px;"></td>
+                <td style="width:10%;" style="color:red">200$</td>
+
+                <td style="width:10%;"><input type="text"></td>
+                <td>200$</td>
+            </tr>
+
+
+        </table>
+        <button class="buttonCard" style="width: 20%;">Update Shopping Card</button>
+    </div>
+    <!-- end -->
+    <footer>
+        <div class="containerft">
+            <div class="textft">
+                <div>
+                    ORDER
+                </div>
+                <div class="linkft">
+                    <ul>
+                        <li><a href="">Order Status</a></li>
+                        <li><a href="">Shipping and Returns</a></li>
+                        <li><a href="">International Customers</a></li>
+                        <li><a href="">Find a Store</a></li>
+                        <li><a href="">Coupons</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="textft">
+                <div>
+                    SUPPORT
+                </div>
+                <div class="linkft">
+                    <ul>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">My Account</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Membership</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="textft">
+                <div>
+                    LEARN
+                </div>
+                <div class="linkft">
+                    <ul>
+                        <li><a href="">Our Co-Op</a></li>
+                        <li><a href="">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="textft">
+                <div class="linkft">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+    </footer>
+
+</body>
+
+</html>
